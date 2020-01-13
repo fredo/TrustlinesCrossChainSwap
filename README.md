@@ -5,7 +5,7 @@ Atomic Swaps between the Trustlines Blockchain and Ethereum Main Chain
 
 
 
-#Smart Contracts
+# Smart Contracts
 
 Smart Contracts are inherited from the project https://github.com/kabl/ether-cross-chain-swap
 
