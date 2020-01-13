@@ -1,15 +1,15 @@
-TrustlinesCrossChainSwap (TC2S)
+# TrustlinesCrossChainSwap (TC2S)
 
 Atomic Swaps between the Trustlines Blockchain and Ethereum Main Chain
 
 
 
 
-# Smart Contracts
+## Smart Contracts
 
 Smart Contracts are inherited from the project https://github.com/kabl/ether-cross-chain-swap
 
-## How it works
+### How it works
 
 Lets say Alice wants to convert Ether to NEM:XEM and Bob NEM:XEM to Ether. 
 
