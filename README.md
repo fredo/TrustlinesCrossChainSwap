@@ -1,12 +1,13 @@
-# README
+TrustlinesCrossChainSwap (TC2S)
 
-This smart contract demonstrates an 'Atomic cross-chain swap between different blockchain networks'. 
-The blockchains needs to support 'secret lock' and 'secret proof' functionalities. It's possible with Ethereum, Bitcoin, NEM, NEO and several other products. 
-This smart contract is based on the NEM cross chain swap functionality. 
-- [Nemtech](https://nemtech.github.io/guides/transaction/atomic-cross-chain-swap-between-NEM-public-and-private-chain.html).
-- [Bitcoin Atomic cross-chain trading](https://en.bitcoin.it/wiki/Atomic_cross-chain_trading)
+Atomic Swaps between the Trustlines Blockchain and Ethereum Main Chain
 
-However if it's real 'Atomic' is valid point to discuss. But both parties have a strong incentive to fullfill the rules
+
+
+
+#Smart Contracts
+
+Smart Contracts are inherited from the project https://github.com/kabl/ether-cross-chain-swap
 
 ## How it works
 
