@@ -15,6 +15,7 @@ contract EtherSwap {
     event SwapInitiatedEvent(bytes32 indexed hash, uint256 value);
     event SwapSuccessEvent(bytes32 indexed hash, uint256 value);
     event SwapExpiredEvent(bytes32 indexed hash);
+    event test(bytes enc);
 
     function secretLock(uint64 _lockTimeSec, bytes32 _hash, address payable _recipient) external payable {
         require(swapMap[_hash].inititator == address(0x0), "Entry already exists");
@@ -28,8 +29,8 @@ contract EtherSwap {
         emit SwapInitiatedEvent(_hash, msg.value);
     }
 
-    function secretProof(bytes calldata _proof) external {
-        bytes32 hash = sha256(_proof);
+    function secretProof(bytes32 _proof) external {
+        bytes32 hash = keccak256(abi.encode(_proof));
         require(swapMap[hash].inititator != address(0x0), "No entry found"); 
         require(swapMap[hash].endTimeStamp >= now, "TimeStamp violation");
 
