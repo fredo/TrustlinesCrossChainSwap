@@ -1,4 +1,4 @@
-# TrustlinesCrossChainSwap (TC2S)
+# TrustlinesCrossChainSwap (TXCS)
 
 Atomic Swaps between the Trustlines Blockchain and Ethereum Main Chain
 
